@@ -3,7 +3,7 @@
 }
 
 .Container {
-    width: 100%;
+    width: 100vw;
     background-color: hsla(0, 0%, 100%, 0.137);
     padding: 1em;
     display: flex;
@@ -33,9 +33,12 @@ menu#item {
     align-items: center;
 }
 
-.containerText{
+.containerText {
     font-size: 18px;
-    margin-left: 1em;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list {
@@ -55,5 +58,14 @@ a.list-filho {
     color: black;
     display: block;
     padding: 10px;
+}
+
+a .Containe_sub_tiulo {
+    font-size: 10px;
+    text-decoration-line: none;
+}
+
+.Containe_sub_tiulo:hover {
+    text-decoration: underline;
 }
 
