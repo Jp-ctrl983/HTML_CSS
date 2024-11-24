@@ -1,0 +1,6 @@
+.container_img {
+    align-items: center;
+}
+.container_img img {
+    max-width: 100%;
+}
