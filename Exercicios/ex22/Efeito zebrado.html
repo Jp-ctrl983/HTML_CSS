@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Efeito Zebrado</title>
+<style>
+          body{
+              font-family: Arial, Helvetica, sans-serif;
+          }
+
+          table{
+              width: 500px;
+              border-collapse: collapse;
+          }
+
+          td,th{
+              border: 0.1px solid black;
+              padding: 10px;
+              text-align: left;
+          }
+           thead{
+            background-color: rgba(0, 0, 0, 0.644);
+            color: aliceblue;
+           }
+  
+
+           /*para colocar efeito zebrado*/
+           tbody > tr:nth-child(odd){/*impar*/
+               background-color: rgb(57, 2, 255);
+           } 
+           
+           tbody > tr:nth-child(even){/*par*/
+               background-color: chartreuse;
+           }
+
+        tfoot{
+            background-color: rgba(0, 0, 0, 0.274);
+
+        }
+</style>
+    </head>
+   <body>
+
+<table>
+<thead>
+            <tr>
+<th scope="col" style="width: 200px;">Estado</th>
+<th scope="col" style="width: 100px;">População</th>
+            </tr>
+</thead>
+<tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.000.000</td>  
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>2.000.000</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td>70.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.000.000</td>  
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>2.000.000</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td>70.000</td>
+            </tr>
+            <tr>
+                <td>para</td>
+                <td>983</td>
+            </tr>
+            <tr>
+                <td>mato Grosso</td>
+                <td>598479</td>
+            </tr>
+            <tr>
+                <td>sul</td>
+                <td>98491</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td>5889478</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td>84651784</td>
+            </tr>
+            <tr>
+                <td>Parána</td>
+                <td>985+89</td>
+            </tr>
+                <td>RJ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>são paulo</td>
+                <td>7838-</td>
+            </tr>
+            <tr>
+                <td>nordeste</td>
+                <td>7852782</td>
+            </tr>
+            <tr>
+                <td>new york</td>
+                <td>383</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>872782</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td>8262</td>
+            </tr>
+            <tr>
+                <td>mexico</td>
+                <td>859</td>
+            </tr>
+            <tr>
+                <td>paumas</td>
+                <td>852-9</td>
+            </tr>
+            <tr>
+                <td>barro auto</td>
+                <td>8668</td>
+            </tr>
+            <tr>
+                <td>note</td>
+                <td>85896</td>
+            </tr> 
+</tbody>
+    
+<tfoot>
+            <tr>
+                <td scope="row">Total de Abitantes</td>
+                <td>0000</td>
+            </tr>
+</tfoot>
+</table>
+
+<!--<ol> par colocar paragrafos-->
+<p><ol>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi deleniti accusantium animi laudantium quia qui, eligendi nostrum eius rerum nesciunt? Beatae esse deleniti eaque velit repellat expedita adipisci facilis debitis?</ol></p>
+
+  </body>
+</html>

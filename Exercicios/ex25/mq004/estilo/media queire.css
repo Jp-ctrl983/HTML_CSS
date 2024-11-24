@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+/* Typical device breakpoints
+---------------------------
+pequenas telas:ate 600px
+celular: 600px ate 768px
+tablet:768px ate 992px
+desktop:992px ate 1200px
+grandes telas:acima de 1200px
+---------------------------------
+*/
+
+/*empressora*/
+@media print{
+    *{
+        font-family:'Courier',sans-serif
+        ;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);/*desnecesario pois empresora não imprime backgroud*/
+    }
+
+    main{
+        width:88vw;
+        border: 2px solid black;
+    }
+
+    main::after{
+        content:'Essa empreção foi feita atraves do site www.com.br.semnome';
+        text-decoration: underline;
+}
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone{display:none;}
+    img#tablet{display:none;}
+    img#print{display:block;}
+    img#tv{display:none;}
+    img#pc{display:none;}
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    main{
+         width: 700px;
+    }
+
+    img#phone{display:none;}
+    img#tablet{display:block;}
+    img#print{display:none;}
+    img#tv{display:none;}
+    img#pc{display:none;}
+}
+
+/*configuração min e minima e max  maxima de px que vai abrir em um determinado dispositivo*/
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    main{
+        width: 800px;
+    }
+
+    img#phone{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#tv{display:none;}
+    img#pc{display:block;}
+}
+
+@media screen and (min-width:1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    main{
+        width: 1000px;
+    }
+
+    img#phone{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#tv{display:block;}
+    img#pc{display:none;}
+}

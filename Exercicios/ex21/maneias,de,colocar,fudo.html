@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testa de img de fundo</title>
+    <style>
+        body{
+           background-image: url('Imagens/wallpaper001.jpg');
+        }
+        div.quadrada{
+             /*para colocar  no lado*/
+            display: inline-block;
+            background-color:rgba(63, 82, 63, 0.356);
+            border: 1px solid  black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{
+           background-color: deepskyblue;
+        }
+        div#q2{
+             background-image:linear-gradient(to bottom,orange,yellow);
+        }
+        div#q3{
+             /*para colocar img*/
+             background-image: url('Imagens/wallpaper002.jpg');
+        }
+    </style>
+</head>
+<body>
+   <div class="quadrada" id="q1"></div>
+
+    </div>
+    <div class="quadrada" id="q2">
+
+    </div>
+    <div class="quadrada" id="q3">
+
+    </div>
+</body>
+</html>

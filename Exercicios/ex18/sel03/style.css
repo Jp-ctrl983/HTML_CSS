@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*
+ # = id
+. = class
+: = pseudo class
+:: = pseudo element
+> = clildron
+*/
+
+body{
+     font-family: sans-serif;
+    background-color: rgb(71, 177, 248); text-align: center;
+ }
+h1{
+    background-color: blue;
+    color: aqua;
+}
+
+ /*desta forma abaixo nuda a cor no link*/
+ a{
+     color: rgb(115, 6, 240);
+     /*para tirar o sublinhado dos links*/
+     text-decoration: none;
+    
+     font-weight: bold;
+ }
+
+ /* a:visitado> se tiver cor difernte não foi visto*/
+ a:visited{
+     color: rgba(49, 94, 218, 0.973);
+ }
+
+
+
+ /*para passar o mouse un cima e aparecer sublinhado*/
+ a:hover{
+     text-decoration: underline;
+     text-decoration-color: rgb(157, 255, 0);
+     color: rgb(8, 42, 233);
+ }
+
+
+/*quando clicar e segura o link, ficar ativo,ele nuda de cor*/
+   a:active{
+       color: darkgreen;
+   }
+
+.expecial{
+    background-color: rgb(155, 93, 236);
+    
+}
+
+.expecial:visited{
+       color: rgb(119, 196, 43);
+       
+   }
+
+.expecial::after{
+       /*content sgnifica conteudo*/
+       /*a tag e para colocar palavras dopois e antas dos links */
+       content:'↞'; 
+       color: rgb(204, 204, 13);
+       text-decoration: none;
+       font-weight: normal;
+      
+   }
+
+   /*estas tag abaixo e para colocar umas palavras ou icones antes */
+   .expecial::before{
+       content:'↠' ;
+       /*cor doicone*/
+       color: rgb(0, 60, 255);
+       font-weight: normal;
+}
+
+.expecial:hover{
+    text-decoration: underline;
+    color: rgb(0, 60, 255);
+    text-decoration-color: blue;
+}
+
+.expecial:active{
+    color: aliceblue;
+}
+

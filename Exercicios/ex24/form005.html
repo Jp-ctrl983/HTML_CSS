@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+  <body>
+    <h1>Exemplo de Formulários</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Profição</legend>
+
+            <input type="radio" name="1a" id="1ia"checked value="Programador"><label for="1ia">Programador</label><br> 
+            <input type="radio" name="1a" id="prof1" value="Engenheiro"><label for="prof1">Engenheiro de Dados</label><br>
+<!--No <radio> e possivel [{(colocar o <"name"> de cima igual ao <"name"> de baixo)}] sera possivel maracar somente uma das alternativas-->
+    <!--<checked> e para que ja apareça uma alternativa marcada-->
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+
+            <input type="checkbox" name="Esportes" id="1Esportes" checked><label for="1Esportes">Futebol</label><br>
+            <input type="checkbox" name="Esportes" id="2Esportes"><label for="2Esportes">Natação</label><br>
+            <!--checkbox e para poder usar um sinal de marcar e desmarcar-->
+               <!--o <label for +id> e para os "mecanismos de busca identificar melho o oq ue foi dito"
+                neste caso e para quando clicar na palavra marcar o quadrinho-->
+            <input type="checkbox" name="3Esportes" id="3Esportes"><label for="3Esportes">Volei</label><br> 
+            <input type="checkbox" name="4Esportes" id="4Esportes"><label for="4Esportes">Futevolei</label><br> 
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> 
+        </p>
+    </form>
+</body>
+</html>

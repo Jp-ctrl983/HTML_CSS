@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*Arquivo Impressora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
+menu{
+    display: none;
+    /*disply no e para concelar algo na tela de impreção*/
+}
+
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'Este site foi feito pelo "cusço em video" todos os direitos reservados';
+}

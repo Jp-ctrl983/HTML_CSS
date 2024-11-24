@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tabela</title>
+<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; 
+}
+
+        table{
+             width: 300px;
+             height: 300px;
+             border-collapse: collapse;
+}
+
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+/*para colocar tudo em no local que vc quiser dentro da celula*/ 
+            text-align: center;
+            vertical-align: middle;/*alinhamento vertical*/
+           /*<Middle> e no meio*/
+}
+
+        td.lindo{
+           text-align: right;
+           vertical-align: bottom;
+        }
+       
+</style>
+    </head>
+   <body>
+<table>
+    <!--capition e a legenda da tabela-->
+<caption>Lorem ipsum dolor.</caption>
+    <h1>Minha Tabela</h1>
+        <tr>
+
+         <td class="lindo">a1</td>
+         <td>b1</td>
+         <td>c1</td>
+
+        </tr>
+
+        <tr>
+
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="lindo">a3</td>
+            <td>b3</td>
+            <td>c3</td>
+
+        </tr>
+
+             <td>a4</td>
+             <td>b4</td>
+             <td  class="lindo">c4</td>
+
+    
+    </table>
+
+  </body>
+ </html>

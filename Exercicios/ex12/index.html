@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Oi</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, debitis eaque nisi ipsum enim dicta magnam eum? Aut earum fuga asperiores saepe illo, nam ab officiis quibusdam voluptate culpa consequatur.
+
+    </p>
+
+<picture>
+<!--assim adiciona uma img para se a adaptar aos pixes de um dispositivo  -->
+<source media="(max-width: 750px)" srcset="../ex12/imagens/pequena.png" type="Image/png">
+<source media="(max-width: 1050px)" srcset="../ex12/imagens/media.png" type="image/png"> 
+<img src="../ex12/imagens/grande.png" alt="imagem flexivel">
+</picture>
+
+<h1>Agora vamos aprender a colocar audio no site</h1>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit tenetur, accusantium libero neque temporibus porro non placeat illum repellat ipsam beatae possimus delectus labore quidem aut consectetur cupiditate, quia distinctio?
+</p>
+
+<!--agora colocaremos aldio deessa forma -->
+<!--a tag loop e para repetir a musica quando ela acabar-->
+
+<audio src="midia/Track 18.mp3"controls autoplay loop></audio>
+
+<audio src="midia/Track 11.mp3" controls autoplay loop></audio>
+
+<!--esistem aldios mp3 wav a ogg-->
+<!--poi tauves algum  navegador não acite mp3-->
+
+<!--arquivo wav são muitos pesados então e uasar o mp3 a ogg /-->
+<!--agora a abaixo preload pode conter metadata são as informações do audio a outo não e recomendado  pois e mais pesado e pode conter name serva pra anadada-->
+<audio preload="metadata" controls autoplay>
+
+<source src="midia/dipaulo.mp3" controls autoplay type="audio/mpeg">
+
+<source src="../projeto10/midia/Track 18.agg" controls autoplay type="audio/ogg">
+
+<source src="../projeto10/midia/Track 11.wav"  controls autoplay type="audio/wav">
+</audio>
+
+
+
+<p>Se não tiver aberto nenhum destes se navedor não e compativel com a audio </p>
+
+<p>clique para
+<a href="midia/Track 11.mp3">aqui para baixar</a>
+</p>
+</body>
+</html>

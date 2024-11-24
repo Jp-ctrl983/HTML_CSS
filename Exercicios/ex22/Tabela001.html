@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Tabela</title>
+    <style>
+        body{
+            background-color: rgba(0, 98, 209, 0.719);
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+
+    /*linhas para a tabela*/
+
+        table{
+             width: 300px;
+             border-collapse: collapse;
+             border: 20px solid rgb(5, 27, 148);
+}
+
+        tr{
+            background-color: rgb(241, 197, 0);
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+}
+
+        td.dado{
+         background-color: darkgreen;
+         color: aliceblue;
+}
+
+        tr.cor{
+           background-color: rgba(0, 0, 0, 0.363);
+           color: rgba(255, 255, 255, 0.747);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+    <!--
+        hierarquia de tabela
+        (caption)
+        table=tabela 
+         table row(tr)= linhas de tabela
+          table header(th)=cabeçalho de tabela
+           table data(td)=dado da tabela
+    -->
+
+<!--</table> para delimitar minha primeira tabela-->
+
+    <table>
+<!--essas tags não são arigatoias o fechamento-->
+
+        <tr class="cor"><!--Primeira linha-->
+
+         <td class="dado">a1</td>
+         <td>b1</td>
+         <td>c1</td>
+
+        </tr>
+
+        <tr><!--segunda linha-->
+
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+
+        </tr>
+
+        <tr>
+
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+
+        </tr>
+
+             <td>a4</td>
+             <td>b4</td>
+             <td>c4</td>
+             
+    </table>
+
+ <!--sempre obedecer a hierarquia  por se não vai dar errado-->
+</body>
+</html>

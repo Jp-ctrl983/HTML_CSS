@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Posicionando Fundos </title>
+      <style>
+          
+        #posição{
+            background-image: url("Imagens/target001.png");
+            background-size: 100% 100%;
+            position: relative;
+            height: 93vh;
+            width: 100vh; 
+            padding: 10px;
+            background-color: purple;
+                
+          }
+
+          #conteudo{
+           background-image: url(Imagens/target001.png);
+           background-size: 100% 100%;
+
+           position: absolute;
+           height: 200px;
+           width: 400px;
+           background-color: yellow;
+
+           /*quando coloca na (posição relativa)e o (conteudo absolute) podemos configurar o left e top*/
+           left: 50%;
+           top: 50%;
+
+           /*para colocar a parte amarela no  centro uma transformação*/
+           transform: translate(-50%,-50%);
+
+          }
+
+      </style>
+   </head>
+  <body>
+      <section id="posição">
+          <article id="conteudo">
+                    
+          </article>
+      </section>
+ </body>
+</html>

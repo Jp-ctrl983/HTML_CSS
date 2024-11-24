@@ -1,0 +1,56 @@
+@charset "UTF-8";
+h1{
+    
+    background-color: rgb(106, 198, 255);
+    height: 65px;
+    width: 300px;
+    border: 1ch;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(116, 153, 245);
+    border-radius:25px;
+    text-align: center;
+    border-bottom-left-radius: 15mm;
+    border-bottom-right-radius: 15mm;
+
+/*paddgin tamanho das bodasde da caixa*/ 
+
+    padding-top: 10px;
+    padding-right:1px ;
+    padding-left: 1px;
+    padding-bottom:10px;
+/*bottom e para baixo*/
+
+
+/*maneira simplificada*/
+    padding: 10px ;
+
+/*outiline e para colocar bordas fora "analise o conteudo"*/
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: crimson; 
+
+
+/*para psicionar os modelos e cicha que tem em  seu site*/
+/*margin auto e par colocar no centro*/
+    margin: auto;
+    margin-top: 12pt;
+    margin-right: 12pt;
+    margin-left: 12pt;    
+    margin-bottom: 12pt; 
+    /*maneira simplificada */
+    margin:12pt auto 12pt auto;
+}
+
+    
+    
+   a{
+    display: block;
+    color: rgb(110, 18, 214);
+    border-width: 9px;
+    padding: 6px;
+    height: 65px; 
+    width: 300px;
+     
+
+}   

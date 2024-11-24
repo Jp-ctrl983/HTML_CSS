@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Texte de formulario</h1>
+    <form action="cadastro.php" method="dialog" autocomplete="on">
+<p>
+
+        <label for="sult">Usuario:</label>
+        <input type="text" nome="isult" id="aisult" required minlength="5" maxlength="15" size="20" placeholder="Nome do Usuario" autocomplete="username">
+<!--mim lenght e para quantida de letras minimas eo max ea quantidade maxima de letras-->
+
+<!--required e para faser com que não  seja possivel enviar o form em branco-->
+
+<!--placechoder e par colocar  algo escrito dentro da caixa-->
+
+</p>
+<p>
+
+        <label for="icon">Senha</label>
+        <input type="password" name="senha" id="iisenha" required minlength="4" maxlength="8" placeholder="Password" autocomplete="current-password">
+
+<!--<new-password>e para epara indicar senha nova e <current-password> e para senha atual-->
+    
+<!--E mais importamte que tenha um (<autocomplete> no input\)=> doque na tag form-->
+</p>
+<p>
+
+        <input type="submit" value="enviar"> 
+    <!--O botão abaixo e para limpar o quee esta escrito-->
+        <input type="reset" value="limpar">
+        
+</p>
+    </form>
+</body>
+</html>

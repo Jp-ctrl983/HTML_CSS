@@ -1,0 +1,20 @@
+/*A tag abaicho serve para consertar as acentuações*/
+@charset "UTF-8";
+
+body {
+    background-color: rgba(59, 179, 179, 0.582);
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(59, 179, 179, 0.582);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+p {
+  color:goldenrod;
+  text-align:justify;
+}
+h2 {
+ color: rgb(3, 0, 192);
+}

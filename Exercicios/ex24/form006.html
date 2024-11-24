@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+  <body>
+      <h1>Core em Formulario</h1>
+    <form action="cadastro.php" method="post">
+        <!--para enviar arquivo é melhor utilizar post-->
+        <p>
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="icor" value="#000">
+            <!--O value no color e para deixar com uma cor ja de início-->
+        </p>
+        <p>
+           <label for="Nivel">Nivel de satisfação</label>
+           <input type="range" name="nivel" id="Inivel" min="1" max="5" value="2.5">
+           <!--range e para uma barra com (para dar uma "nota")-->
+        </p>
+          <label for="foto">foto do Perfil</label>
+          <input type="file" name="foto" id="Ifoto">
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+ </body>
+</html>

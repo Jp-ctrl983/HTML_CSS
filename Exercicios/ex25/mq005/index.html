@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="estilo/style.css">
+<link rel="stylesheet" href="estilo/media.css">
+<!--link da font-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+   </head>
+  <body onresize="mudoutamanho()">
+    <header>
+        <h1>Meu site</h1>
+<!--para colocar um icone e so ir no goglee icons e copiar o codigo css-->
+<i id="burger" class="material-symbols-sharp" onclick="clickMenu()">menu</i>
+
+        <menu id="item">        
+            <ul>
+                    <li><a href="#">Opção 1</a></li>
+                    <li><a href="#">Opção 2</a></li>
+                    <li><a href="#">Opção 3</a></li>
+                    <li><a href="#">Opção 4</a></li>
+                    <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Media Queires</h2>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem amet repellat expedita ex in asperiores dolorum, iste nulla totam tempora numquam, nostrum distinctio pariatur omnis, maiores modi earum. Maxime, recusandae?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eaque fugiat rerum nulla ad nobis consequatur minus. In harum eum voluptatum laborum iure blanditiis non sequi vel. Debitis, maiores sunt.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eaque fugiat rerum nulla ad nobis consequatur minus. In harum eum v nulla ad nobis consequatur minus. In harum eum voluptatum laborum iure blanditiis non sequi vel. Debitis, maiores sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis sunt tempore est minus voluptatibus, suscipit velit dolorem impedit praesentium, mollitia, amet asperiores autem eaque illo voluptatem numquam commodi in?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem obcaecati ullam quas, ipsa eos consequatur, mollitia voluptate culpa inventore rem sunt saepe a libero. Sint quidem totam laudantium ea?llo
+                 <br>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est tempore cum hic repudiandae at aspernatur velit soluta expedita. Placeat alias nobis explicabo veritatis tempore culpa sint rem autem esse eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error nobis cupiditate corrupti pariatur nemo ipsum aliquid vero, vel optio? Odit vero ipsa necessitatibus neque quas cupiditate obcaecati ex nisi!Lorem
+                </br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reprehenderit voluptatibus! Eligendi laudantium magni distinctio, ipsum earum, repellendus quia mollitia, porro esse suscipit maxime ducimus molestias repudiandae sunt ut? Veritatis.
+                 llo
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil quaerat ad repellendus excepturi explicabo illo aperiam, ex, deserunt at similique praesentium fuga ducimus molestiae officiis est hic necessitatibus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eaque fugiat rerum nulla ad nobis consequatur minus. In harum eum voluptatum laborum iure blanditiis non sequi vel. Debitis, maiores sunt.
+                <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                </br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                <ol>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                </ol>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat excepturi similique earum dolores optio harum voluptatem tenetur non! Fugiat temporibus labore velit optio amet placeat non. Dignissimos, soluta natus?
+            </p>
+        </article>
+    </main>
+    
+    <script>
+        function mudoutamanho(){
+            if (window.innerWidth >= 768){
+                item.style.display = 'block'
+            } else {
+                item.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (item.style.display == 'block'){
+                item.style.display = 'none'
+            } else {
+                item.style.display = 'block'
+            }
+        }
+    </script>
+ </body>
+</html>

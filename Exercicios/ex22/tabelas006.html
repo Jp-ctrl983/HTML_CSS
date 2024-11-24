@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Exercicios de Tabelas 006</title>
+     <style>
+       body{
+         font-family: Arial, Helvetica, sans-serif;
+       }
+
+       table{
+         width: 500px;
+         border-collapse: collapse;
+       }
+
+       caption{
+         background-color: rgba(0, 0, 0, 0.801);
+         color: aliceblue;
+         font-size: x-large;
+         font-weight: bold;
+         padding: 8px;
+         border: 0.5px solid rgba(0, 0, 0, 0.190);
+         border-radius: 2px;
+       }
+
+       tr,td{
+         border: 1px solid black;
+         padding: 8px;
+       }
+
+       .idade{
+         text-align: center;
+       }
+
+       .destaque{ 
+         background-color: rgb(0, 255, 255);
+       }
+
+       .cidade{
+         background-color: rgb(255, 0, 0);
+       }
+
+       .cprof{
+         background-color:rgb(0, 255, 255) ;
+       }
+
+
+
+     </style>
+   </head>
+  <body>
+    <h1>Aprendendo a Trabalhar com Colgroup</h1>
+    <table>
+
+<!--nova tag em html para colocar cor em uma so coluna-->
+<colgroup>
+<!--uma tag col (coluna)para cada coluna-->
+
+          <col class="destaque">
+          <col class="cidade" span="2">
+          <col class="cprof">
+</colgroup>
+
+
+      <caption>Cadastro</caption>
+      <thead>
+        <tr>
+            <th scope="col" >Nome</th>
+            <th scope="col" style="text-align:center;">Idade</th>
+            <th scope="col" style="text-align:center;">Profição</th>
+            <th scope="col" >Nome</th>
+        </tr>
+      </thead>
+
+  <tbody>
+              <tr>
+                <td>Ana Maria</td>
+                <td class="idade">34</td>
+                <td class="idade">Jornalista</td>
+                <td>Ana marquee </td>
+              </tr>
+              <tr>
+                <td>Gustavo</td>
+                <td class="idade">55</td>
+                <td class="idade">Pianista</td>
+                <td>Ana marquee </td>
+              </tr>
+              <tr>
+                <td>João Pedro(eu)</td>
+                <td class="idade">14</td>
+                <td class="idade">Sonhador</td>
+                <td>Ana marquee </td>
+              </tr>
+              <tr>
+                <td>Ana Maria</td>
+                <td class="idade">34</td>
+                <td class="idade">Jornalista</td>
+                <td>Ana marquee </td>
+              </tr>
+                  <tr>
+                    <td>Gustavo</td>
+                    <td class="idade">55</td>
+                    <td class="idade">Pianista</td>
+                    <td>Ana marquee </td>
+                  </tr>
+                  <tr>
+                    <td>Ana Maria</td>
+                    <td class="idade">34</td>
+                    <td class="idade">Jornalista</td>
+                    <td>Ana marquee </td>
+                  </tr>
+</tbody>
+      </table>
+ </body>
+</html>

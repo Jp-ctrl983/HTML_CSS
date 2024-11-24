@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: arial,sans-serif;
+    background-image: linear-gradient(to left, rgb(0, 162, 255),rgb(29, 10, 199));
+    margin: 0px;
+}
+h1{
+    box-shadow: 1px 3px 7px 1px rgba(116, 136, 0, 0.418);
+    border-radius: 43px;
+}
+
+header{
+    border: 600px;
+    background-color:darkorange ;
+    padding: 10px;
+    margin: 10px;
+    text-align:  center;
+    border-radius: 155px 25px;
+    box-shadow: 1px 5px 2px 1px rgba(131, 70, 13, 0.315);
+}
+
+nav{
+    background-color: rgb(28, 128, 6);
+    margin: 10px;
+    padding: 10px;
+    /*tag abaixo e sombra de caixa*/
+    box-shadow: 5px 3px 7px 1px rgba(2, 54, 0, 0.452) ;
+    border-radius: 15px;
+}
+nav > a{ 
+        text-decoration: none;
+        color: rgb(160, 248, 220);
+        font-weight: bold;
+        margin-right: 30px;
+        text-align: center;
+       
+}
+nav > a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 128, 145);
+
+}
+#assunto{
+   
+    background-color: rgba(56, 126, 158, 0.932);
+    padding: 2px 8px 0px 8px;
+    margin: 9px;
+    text-align: justify;
+}
+
+main{
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    /*border-radius eo raio da borda*/
+    border-radius: 35px 22px 40px 26px;
+   
+}
+
+#nossão{
+    background-color: rgba(83, 85, 0, 0.438);
+    padding: 2px 8px 2px 8px;
+    margin: 9px;
+    text-align: justify;
+}
+#noticia{
+    background-color: rgb(42, 83, 0);
+    padding: 10px;
+    border-radius: 15px;
+    border: 10px;
+}
+main > select:hover{
+    border: 10px;
+}
+
+footer{
+    background-color: rgb(6, 151, 158);
+    color: rgb(25, 63, 0);
+    text-align: center;
+    padding:5px;
+    margin: 0px;
+    border-radius: 15px;
+}
+footer > p{
+    margin: 0px;
+}
+div{
+    /*para faser uma bola */
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 50%;
+
+}
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caixas arredondadas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <!--header cabesalho do site-->
+       <header>
+        <h1>Meu site</h1>
+        <nav> 
+          <a href="#"> link</a>
+          <a href="#"> link</a>
+          <a href="#"> link</a>
+        </nav>
+     </header>
+
+     <!--main conteudo (meio)-->
+     <main>
+       <section id="assunto">
+     <h3>Site de informação</h3>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora libero voluptatem accusantium odit tempore blanditiis quaerat perferendis repellendus, non facere sapiente veritatis molestias distinctio quae dolorem voluptas ipsa placeat! Sint!</p>
+       </section>
+       <section id="noticia">
+  <!--article e argtigo-->      
+       <article>
+<!--aside e referente ao conteudo periferico do article--> 
+ <h2>Noticia sobre o Brasil</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vero exercitationem soluta ratione facere, laborum dignissimos? Veritatis deleniti recusandae atque animi maxime, iusto quibusdam labore repellendus nesciunt suscipit vitae nihil.</p>
+           <aside id="nossão">
+<P>Este artigo foi escrito por um sinegrafista </P>
+          </aside>
+       </article>
+      
+ <article>
+  </article>
+
+       </section>
+     </main>
+
+     <!--footer rodape do site-->
+     <footer>
+       <p>Feito por mim e meu mano Todos os direitos autorais reservados</p>
+     </footer>
+</body>
+</html>

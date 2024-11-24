@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tabelas</title>
+<style>
+      body{
+         font-family: Arial,sans-serif;
+}
+
+      table{
+           width: 500px;
+           padding: 10px;
+           border-collapse: collapse;
+           border-radius: 1.8px;
+}
+
+      thead{
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        border: 1px solid black;
+
+     
+}
+
+      td{
+          border: 1px solid  black;
+          text-align: center;
+          vertical-align: middle;
+          padding: 1%;
+}
+
+      caption{
+         font-size: x-large;
+         padding: 1%;
+         background-color: rgba(0, 0, 0, 0.562);
+         color: rgb(255, 255, 255);
+         border: 1.6px solid black;
+         border-radius: 1.8px;
+}
+
+tfoot{
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.329);
+  border: 1.6px solid rgba(0, 0, 0, 0.575);
+  padding: 1%;
+  
+}
+
+</style>
+
+  </head>
+ <body>
+
+<table>
+      <h1>Minha Tabela</h1>
+ <caption>Lorem ipsum dolor.</caption>
+
+ <thead>
+<th scope="col" style="width: 100px;">São os a1</th>
+<th scope="col" style="width: 100px;">São os a2</th>
+<th scope="col" style="width: 100px;">São os a3</th> 
+</thead> 
+
+<!--SCOPE="<COL para parte de baixo da tabela>e<row para o lado da tabela>e colgroupb  rowgroup" E PARA mostrar para os mecanismos de busca uma forma de interpretação-->
+
+
+     <tr>
+       <td scope="col">a1</td>
+       <td>b1</td>
+       <td>c1</td>
+      </tr>
+
+      <tr>
+          <td>a2</td>
+          <td>b2</td>
+          <td>c2</td>
+      </tr>
+
+      <tr>
+          <td>a3</td>
+          <td>b3</td>
+          <td>c3</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <th scope="rowgroup">Lorem</th>
+          <th>lop</th> 
+          <th>Lorem</th>
+      </tfoot>
+  </table>
+      
+
+  </body>
+ </html>

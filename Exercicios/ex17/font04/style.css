@@ -1,0 +1,30 @@
+   /*estas tags abaixo são para colocar fontes intaladas*/
+   
+   @font-face {
+     font-family: 'Chocumi' ;
+     src: url('font/Chomiku3D-Regular.ttf')format(opentype);
+     font-style:normal, url('font/Chomiku.pdf')format(opentype);
+
+     /*tipos de formato 
+    =>opentype
+    =>trutype  
+    =>ambbed-opentype
+    =>trutype-aat(Apple advanced
+    typography)
+    =>svg*/
+}
+ body{
+    font-size: 2em;
+    font-family: 'chocumi' ,sans-serif;
+    color: rgb(13, 68, 119);
+    background-image: linear-gradient(to left,rgba(4, 0, 255, 0.774),
+   rgb(3, 217, 255));
+}
+h1,p{
+font-weight: normal;
+font-size: 12em;
+font-family: 'Chocumi', sans-serif;
+color: hsl(200, 77%, 12%);
+}
+
+    

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+  <body>
+    <h1>Exemplo de form</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="est">Estado</label>
+            <select name="est" id="iest">
+
+            <optgroup label="Centro Oste">
+                <option value="mg">Minas geráis</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp"selected>São Paulo</option>
+                <option value="to">Tocantis</option>
+                <!--selected e para ja estar altomaticamente selecionado-->
+            </optgroup>
+            <!--O--=>optgroup> e para agrupar e tambem sera possivel colocar um --=>label>-->
+                <optgroup label="Sul">
+                    <option value="Roraima">Roráima</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="para">Pará</option>
+                </optgroup>
+
+                <!--a tag select> serve para colocar uma barra de escolha exemplo acima-->
+                <!---option e para termos as escolhas---> 
+            </select>
+            
+        </p>
+        <p>
+            <label for="prof">Profição</label>
+            <input type="text" name="prof" id="Profição" list="lista1">
+            <datalist id="lista1">
+                <option value="Professor">Professor</option>
+                <option value="Engenheiro">Engenheiro</option>
+                <option value="Programador">Programador</option>
+                <option value="Empresario">Empresario</option>
+                <option value="Reporter">Reporter</option>
+            <!--option E para colocar lista em em um --=>input text<=--Exemplo acima-->
+            </datalist>
+            <!--datalist e para faser listas em agrupamento-->
+        </p>
+        <p>
+            <label for="msg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="5"></textarea>
+            <!--textarea e para faser uma caixa de texto exemplo acima-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+ </body>
+</html

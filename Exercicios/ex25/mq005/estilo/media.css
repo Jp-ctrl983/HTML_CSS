@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+/* Typical device breakpoints
+---------------------------
+pequenas telas:ate 600px
+celular: 600px ate 768px
+tablet:768px ate 992px
+desktop:992px ate 1200px
+grandes telas:acima de 1200px
+---------------------------------
+*/
+
+@media screen and (min-width:768px){
+    i#burger{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul >li{
+        display: inline-block;
+        width: 100px;
+    }
+    
+    ul > li > a{
+        border-radius: 5px;
+    }
+
+     li :hover{
+        background-color: rgb(49, 119, 180);
+        transition: 1.5s;
+        border-radius: 15px;
+    }
+
+    main{
+        width: 768px;
+    }
+}

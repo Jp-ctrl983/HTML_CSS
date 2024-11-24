@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+        /* em html id é = a # em css  */
+   /*tudo em html /class/ e = a /./ em css*/
+
+   body {
+          background-color: rgb(205, 255, 203);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          
+  }
+   h1{
+       color:rgb(4,109,0)
+   }
+   
+   #principal{
+       text-align: center;
+       background-color: chartreuse;
+       
+      
+    }
+   h2{
+       color:rgb(114, 145, 54)
+   }
+   h2#class{
+         background-color: blue;
+         color: chartreuse;
+   }
+   
+   
+   /* a tags <div class principal> são para colocar o css especificamente em um <setor> ou <paragrafo> e <h1>*/
+   

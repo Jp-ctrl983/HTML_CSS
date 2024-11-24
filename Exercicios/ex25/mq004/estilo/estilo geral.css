@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*Em Geral*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background-color: rgba(114, 114, 114, 0.685);
+    width: 400px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 2px 1px black;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone{display:block;}
+img#tablet{display:none;}
+img#print{display:none;}
+img#tv{display:none;}
+img#pc{display:none;}
