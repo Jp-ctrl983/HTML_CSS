@@ -30,10 +30,6 @@
     transition: all ease 1s;
 }
 
-.btn:hover {
-    background-color: #a52a2a59;
-}
-
 .container_link {
     margin-top: 15px;
     text-align: center;
