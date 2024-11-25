@@ -12,3 +12,8 @@ function clickMenu(){
         item.style.display = 'block'
     }
 }
+
+function toggleCardapio() {
+    let cardapio = window.document.getElementById('cardapio');
+    cardapio.classList.toggle('hidden')
+}

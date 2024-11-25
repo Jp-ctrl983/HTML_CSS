@@ -2,11 +2,14 @@
 
 @import url("style/menu.css");
 @import url("style/main.css");
+@import url("style/footer.css");
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    min-height: 1000px;
 }
 
+.hidden {
+    display: none; /* Oculta o elemento */
+}

@@ -59,13 +59,3 @@ a.list-filho {
     display: block;
     padding: 10px;
 }
-
-a .Containe_sub_tiulo {
-    font-size: 10px;
-    text-decoration-line: none;
-}
-
-.Containe_sub_tiulo:hover {
-    text-decoration: underline;
-}
-
