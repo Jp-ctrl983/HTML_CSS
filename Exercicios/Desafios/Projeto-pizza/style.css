@@ -11,5 +11,9 @@ body {
 }
 
 .hidden {
-    display: none; /* Oculta o elemento */
+    display: none;
+}
+
+.highlight {
+    background-color: yellow;
 }
